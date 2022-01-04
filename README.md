@@ -1,27 +1,33 @@
 # JobIt
 
-## About us
-we are in JobIT cares about finding a solution to recruitment of immidiate and temporary workers problem.
-today there are lots of WhatsApp groups and diifrent apps , but none of them gives a useful solution
+## About Us:
+> **We are in JobIt cares about finding a solution to recruitment of immidiate and temporary workers problem.**
+> **Today there are lots of WhatsApp  groups and diffrent apps , but none of them gives a useful solution.**
+## Our Users:
+#### Employer
 
-![image](https://user-images.githubusercontent.com/57875188/148129562-27dba9a7-7372-4df0-9d1b-adeab7c8e3b7.jpeg)
+ Our Employer functionality:
 
-### Full details on the app can be found in the presentation.
+  - Main Dashboard
+  - Post new jobs + upload photo
+  - Personal Dashboard
+  - Delete specific posts functionalilty.
+  - View profile
+  - Edit profile fields + upload photo
+  - Chat
+  - Dinamic Search
 
-## USERS
-### Employer
-* Main Dashboard
-* post new jobs + upload photo 
-* Personal Dashboard
-* Delete specific posts functionalilty.
-* view profile 
-* Edit profile fields + upload photo
-* Chat
-* Dinamic Search
+#### Employee
 
-### Employee
-* Main Dashboard
-* View profile
-* Edit profile fields + upload photo
-* Chat
-* Dinamic Search
+  Our Employee functionality:
+
+  - Main Dashboard
+  - View profile
+  - Edit profile fields + upload photo
+  - Chat
+  - Dinamic Search
+
+**More information attached to "JobItPresentation.PDF" file.**
+
+Best Regards,
+*JobIt*
