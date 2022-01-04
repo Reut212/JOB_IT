@@ -8,4 +8,20 @@ today there are lots of WhatsApp groups and diifrent apps , but none of them giv
 
 ### Full details on the app can be found in the presentation.
 
-## em   ## am
+## USERS
+### Employer
+* Main Dashboard
+* post new jobs + upload photo 
+* Personal Dashboard
+* Delete specific posts functionalilty.
+* view profile 
+* Edit profile fields + upload photo
+* Chat
+* Dinamic Search
+
+### Employee
+* Main Dashboard
+* View profile
+* Edit profile fields + upload photo
+* Chat
+* Dinamic Search
