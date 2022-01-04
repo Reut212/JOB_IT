@@ -27,6 +27,9 @@
   - Chat
   - Dinamic Search
 
+
+![image](https://user-images.githubusercontent.com/57875188/148129562-27dba9a7-7372-4df0-9d1b-adeab7c8e3b7.jpeg)
+
 **More information attached to "JobItPresentation.PDF" file.**
 
 Best Regards,
