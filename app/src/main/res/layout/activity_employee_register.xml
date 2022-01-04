@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employeeRegister">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="370dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hapticFeedbackEnabled="false"
+        android:padding="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/jobit3" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/firstName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/round_borded"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:hint="שם משפחה" />
+
+    <EditText
+        app:layout_constraintHorizontal_bias="1.0"
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:background="@drawable/round_borded"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="שם פרטי" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@+id/lastName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/round_borded"
+        android:drawableRight="@drawable/ic_email"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="אימייל"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="412dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/editTextTextEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:background="@drawable/round_borded"
+        android:drawableLeft="@drawable/ic_baseline_visibility_off_24"
+        android:drawableRight="@drawable/ic_lock"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="סיסמה"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/round_borded"
+        android:drawableLeft="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="חזור על סיסמה"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/lang"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/round_borded"
+        android:drawableRight="@drawable/ic_baseline_language_24"
+        android:ems="10"
+        android:drawablePadding="5dp"
+        android:hint="שפה"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="407dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/round_borded"
+        android:drawableRight="@drawable/ic_baseline_local_phone_24"
+        android:ems="10"
+        android:drawablePadding="5dp"
+        android:hint="מספר טלפון"
+        android:inputType="phone|number" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginRight="206dp"
+        android:background="@drawable/round_borded"
+        android:drawableRight="@drawable/ic_baseline_location_blue"
+        android:ems="10"
+        android:drawablePadding="5dp"
+        android:hint="מיקום"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/employeeRegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/rounded_bg"
+        android:text="register"
+        android:textSize="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/logo_detail_job"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/jobit3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/job_detail_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/logo_detail_job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/profile_icon"
+        app:civ_border_color="@color/icon_dark_blue"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/blabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_detail_image"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="0dp"
+        android:text="תאריך מודעה :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/job_details_date_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/blabla"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toEndOf="@+id/blabla"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/blabla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="תפקיד :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="מיקום :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="מתי ?"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla3"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="שכר :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla4"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="איש קשר :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla5"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="מייל :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blabla6"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="תיאור :"
+        android:textColor="@color/icon_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/job_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/blabla1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toEndOf="@+id/blabla1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_details_location"
+        android:layout_alignBaseline="@id/blabla2"
+        android:layout_toEndOf="@+id/blabla2"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/job_details_job_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/blabla3"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toEndOf="@+id/blabla3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_details_salary"
+        android:layout_alignBaseline="@id/blabla4"
+        android:layout_toEndOf="@+id/blabla4"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_details_contact_name"
+        android:layout_alignBaseline="@id/blabla5"
+        android:layout_toEndOf="@+id/blabla5"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_details_email"
+        android:layout_alignBaseline="@id/blabla6"
+        android:layout_toEndOf="@+id/blabla6"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_details_desc"
+        android:layout_alignBaseline="@id/blabla7"
+        android:layout_toEndOf="@+id/blabla7"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/button_enter_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/job_post_button"
+        android:text="שלח הודעה"
+        android:textAllCaps="false"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".Fragment.EmployeeProfileFragment"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/employee_profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile_icon"
+        app:civ_border_color="@color/icon_dark_blue"
+        app:civ_border_width="2dp" />
+
+    <TextView
+
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/employee_profile_image"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="שם פרטי :"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView30"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:text="שם משפחה :"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView31"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="מייל :"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firstNameEmployeeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textView30"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textView30"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/lastNameEmployeeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textView31"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textView31"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/emailEmployeeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textView32"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textView32"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/editEmployeeProfile"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="עדכן פרופיל"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logOutEmployeeBtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editEmployeeProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="התנתק"
+
+        />
+
+
+</RelativeLayout>

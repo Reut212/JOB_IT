@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421606195022",
+    "firebase_url": "https://jobit-ed577-default-rtdb.firebaseio.com",
+    "project_id": "jobit-ed577",
+    "storage_bucket": "jobit-ed577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421606195022:android:924faf4e4c52759647281f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421606195022-4sktajmaqp0eoeoil1ir9h4qf9odvb6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPLaPJlFVjfmaROTq5C--XHa5bEXdVOfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421606195022-4sktajmaqp0eoeoil1ir9h4qf9odvb6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
