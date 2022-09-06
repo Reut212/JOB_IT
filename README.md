@@ -15,7 +15,7 @@
   - View profile
   - Edit profile fields + upload photo
   - Chat
-  - Dinamic Search
+  - Dynamic Search
 
 #### Employee
 
@@ -25,7 +25,7 @@
   - View profile
   - Edit profile fields + upload photo
   - Chat
-  - Dinamic Search
+  - Dynamic Search
 
 
 ![image](https://user-images.githubusercontent.com/57875188/148129562-27dba9a7-7372-4df0-9d1b-adeab7c8e3b7.jpeg)
